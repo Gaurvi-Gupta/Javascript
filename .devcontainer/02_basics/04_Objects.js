@@ -48,4 +48,20 @@ user[1].email
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    coursename: "javascript",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor: instructor} = course
+console.log(instructor)
+
+//json
+// {
+//     "name": "gaurvi",
+//     "price": "999",
+//     "course": "javascript"
+// }
